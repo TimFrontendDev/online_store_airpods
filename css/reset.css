@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: inherit;/*Цвет ссылок наследуюется*/
+    text-decoration: none;/*Убирается подчеркивание*/
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.2;/*120%*/
+    font-size: 16px;
+    margin: 0;
+}
+
+ .container{
+    max-width: 1220px; 
+    padding: 0 10px; 
+    margin: 0 auto;/*Контейнер будет по центру */
+}
+
+.main__title{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
